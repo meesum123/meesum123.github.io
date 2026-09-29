@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meesum Khan — Senior Data Engineer, Applied AI &amp; LLM Systems</title>
+<meta name="description" content="Portfolio of Meesum Khan, Senior Data Engineer working on Applied AI and LLM systems in healthcare data pipelines.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="#top" class="nav-brand">MK</a>
+    <ul class="nav-links">
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section id="top" class="hero container">
+    <p class="hero-eyebrow">Hello, I'm</p>
+    <h1>Meesum Khan</h1>
+    <p class="hero-role">Senior Data Engineer — Applied AI &amp; LLM Systems</p>
+    <p class="hero-desc">I build data pipelines and LLM-powered systems that turn messy real-world documents —
+      insurance claims, itemized medical bills, clinical guidelines — into structured, trustworthy data.</p>
+    <div class="hero-links">
+      <a href="https://github.com/meesum123" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/meesumali/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:meesum@gmail.com">Email</a>
+    </div>
+  </section>
+
+  <section id="experience" class="section container">
+    <h2>Experience</h2>
+
+    <article class="job">
+      <div class="job-head">
+        <h3>Senior Data Engineer — Applied AI and LLM Systems</h3>
+        <span class="job-date">Aug 2024 – Present</span>
+      </div>
+      <p class="job-meta">Rialtic (formerly Exponential AI) · Los Angeles, CA</p>
+
+      <div class="job-sub">
+        <h4>Prepay Claims Auditing Pipeline <span class="tag">Lead Developer</span></h4>
+        <ul>
+          <li>Architected a normalized SQL Server schema for ingesting healthcare insurance claims from multiple clients and formats; built an automated ingestion pipeline using Python and LLM processing to standardize and load the data.</li>
+          <li>Built an LLM-powered test case generator and validator that created specialized sparse claims to test scenarios against given prepay rules.</li>
+        </ul>
+      </div>
+
+      <div class="job-sub">
+        <h4>Itemized Bill Review LLM Pipeline <span class="tag">Lead Developer</span></h4>
+        <ul>
+          <li>Led end-to-end architecture for a pipeline processing itemized medical bills from various formats into a standardized schema, replacing labor-intensive manual extraction.</li>
+          <li>Combined AWS Textract and LLM-based extraction to achieve 98% extraction accuracy against ground truth, at 15 cents per page.</li>
+        </ul>
+      </div>
+
+      <div class="job-sub">
+        <h4>Clinical Decision Support LLM Pipeline</h4>
+        <ul>
+          <li>Worked on prompt engineering for automated medical jobaid evaluation using RAG and LLMs; achieved 95% decision accuracy alongside a clinician, exceeding the 80–85% accuracy of manual clinician review.</li>
+          <li>Evaluated semantic vs. hierarchical chunking approaches for RAG to compare retrieval and inference quality.</li>
+          <li>Devised a summarization process that condensed large chunks into concise summaries using a lower-cost LLM, improving downstream reasoning quality while reducing input token cost.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <h3>Graduate Research Assistant</h3>
+        <span class="job-date">Apr 2023 – May 2024</span>
+      </div>
+      <p class="job-meta">Arizona State University · Tempe, AZ</p>
+      <ul>
+        <li>Built macros in SAS Enterprise Guide to perform ETL operations on HIPAA-regulated Arizona healthcare data.</li>
+        <li>Implemented a fuzzy matching algorithm using machine learning techniques to match and group patient records across multiple hospitals.</li>
+        <li>Cleaned and visualized Arizona public crime data with Python and Tableau to identify patterns for public health research.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <h3>Machine Learning Engineer</h3>
+        <span class="job-date">Mar 2021 – Mar 2022</span>
+      </div>
+      <p class="job-meta">Exponential AI · Hyderabad, India</p>
+      <ul>
+        <li>Created a document processing system to detect handwritten text on insurance forms using YOLO object detection with Python.</li>
+        <li>Performed large-scale ETL operations on healthcare data using Python and SQL on AWS EC2 and S3, processing millions of records for downstream analytics.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="projects" class="section container">
+    <h2>Projects</h2>
+    <div class="project-grid">
+
+      <article class="project-card">
+        <h3>LLM Backpacker</h3>
+        <span class="project-date">May 2026 – Jun 2026</span>
+        <p>An AWS-hosted service that routes Garmin inReach messages through an LLM and responds back to the device —
+          bringing LLM access to remote environments with no cellular or internet connectivity.</p>
+        <a href="#" class="project-link" data-placeholder="true">Project Link →</a>
+      </article>
+
+      <article class="project-card">
+        <h3>MCTS Solution for Pacman</h3>
+        <span class="project-date">Oct 2022 – Dec 2022</span>
+        <p>Implemented a Monte Carlo Tree Search agent for a Pacman AI environment, benchmarked against AlphaBeta and
+          Expectimax across layouts and hyperparameters, with ANOVA/t-tests on score, time, and memory usage.</p>
+        <a href="#" class="project-link" data-placeholder="true">Project Link →</a>
+      </article>
+
+      <article class="project-card">
+        <h3>Book Recommendation System using NLP</h3>
+        <span class="project-date">Sep 2023 – Dec 2023</span>
+        <p>A hybrid recommendation system combining content-based and collaborative filtering, extended with
+          KNN and SVD-based models.</p>
+        <a href="#" class="project-link" data-placeholder="true">Project Link →</a>
+      </article>
+
+      <article class="project-card">
+        <h3>CV-Based Watermark Removal Attacks</h3>
+        <span class="project-date">Aug 2020 – Jun 2021</span>
+        <p>A computer vision system combining YOLOv8 detection, U2Net segmentation, and a GAN restoration
+          architecture, evaluated across 12,779+ samples using MSE, SSIM, and mAP.</p>
+        <a href="#" class="project-link" data-placeholder="true">GitHub Link →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="skills" class="section container">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>Programming &amp; Data Pipelines</h4>
+        <p>Python, Java, C/C++, React, SQL Server, MongoDB, PostgreSQL, Git, Airflow, dbt, Databricks, ETL/ELT workflow design, relational &amp; non-relational schema design.</p>
+      </div>
+      <div class="skill-group">
+        <h4>Cloud Ecosystems</h4>
+        <p>AWS (EC2, S3, EKS, Textract, SageMaker, Bedrock), Snowflake, Docker, Kubernetes.</p>
+      </div>
+      <div class="skill-group">
+        <h4>LLMs &amp; AI</h4>
+        <p>LLM implementation, RAG frameworks, prompt engineering, multi-model cost optimization, LLM-as-judge evaluation.</p>
+      </div>
+      <div class="skill-group">
+        <h4>Data Insights</h4>
+        <p>Tableau, SAS Enterprise Guide, HIPAA-regulated data experience.</p>
+      </div>
+      <div class="skill-group">
+        <h4>Advanced Modeling</h4>
+        <p>Applied Machine Learning, Computer Vision (OpenCV, YOLO), Natural Language Processing, Fuzzy Matching.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section container">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <div class="job-head">
+        <h3>MS, Computer Science — Arizona State University</h3>
+        <span class="job-date">May 2024</span>
+      </div>
+      <p class="job-meta">GPA: 3.87 / 4.0</p>
+    </div>
+    <div class="edu-item">
+      <div class="job-head">
+        <h3>BTech, Computer Science Engineering — Mahindra University</h3>
+        <span class="job-date">Jun 2021</span>
+      </div>
+      <p class="job-meta">Hyderabad, India</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section container contact">
+    <h2>Get in touch</h2>
+    <p>Open to conversations about applied AI, LLM systems, and data engineering.</p>
+    <div class="hero-links">
+      <a href="mailto:meesum@gmail.com">meesum@gmail.com</a>
+      <a href="https://www.linkedin.com/in/meesumali/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/meesum123" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer container">
+  <p>&copy; <span id="year"></span> Meesum Khan</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
